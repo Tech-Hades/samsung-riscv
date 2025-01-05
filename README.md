@@ -1,2 +1,2 @@
 # samsung-riscv
-VSD-Samsung-RISCV-Program
+This is a VSD-Samsung-RISCV-Program.
