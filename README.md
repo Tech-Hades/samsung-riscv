@@ -107,7 +107,7 @@ Used for jump operations.
   - `opcode`: 1101111
 
 ### Machine Code:
-![Object dump]([Task3/obj_dump_O1.png](https://github.com/Tech-Hades/samsung-riscv/blob/main/Task%203/obj_dump_O1.png?raw=true))
+![obj_dump_O1 Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%203/obj_dump_O1.png)
 
 1. Instruction: addi sp, sp, -32  
 Instruction Type: I-type  
