@@ -9,12 +9,70 @@ College: RV Institute of Technology and Management
 <summary><h2>Task 1<h2></summary>
 <br>
 Install all the essential tools required such as Ubuntu on VMBox. Perform a sum to n numbers C program and generate the RISC-V object dump along with -O1 and Ofast compiler optimization flags. 
+
+  <h4>Virtual Machine Working:</h4>
+
+![VMbox_work Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task1/VMbox_work.png)
+
+<h4>Code for sum upto n numbers C program:</h4>
+
+![Sum_code Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task1/Sum_code.png)
+
+<h4>Sum upto n numbers C program output:</h4>
+
+![sum_op Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task1/sum_op.png)
+
+<h4>Sum upto n numbers C program using RISC-V:</h4>
+
+![sum_riscv Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task1/sum_riscv.png)
+
+<h4>Sum upto n numbers C program using RISC-V O1 optimization:</h4>
+
+![sum_riscv_mainadd01 Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task1/sum_riscv_mainadd01.png)
+
+<h4>Sum upto n numbers C program using RISC-V Ofast optimization:</h4>
+
+![sum_riscv_mainaddfast Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task1/sum_riscv_mainaddfast.png)
+
 </details>
 
 <details>
 <summary><h2>Task 2<h2></summary>
 <br>
 Run SPIKE simulation. A factorial C program is compiled and the same steps is followed to run object dump for each optimization flags and SPIKE simulation. 
+
+<h4>SPIKE simulation of sum upto n numbers C program - O1 optimization:</h4>
+
+![Simulation_O1 Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%202/Simulation_O1.png)
+
+<h4>SPIKE simulation of sum upto n numbers C program - Ofast optimization:</h4>
+
+![Simulation_Ofast Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%202/Simulation_Ofast.png)
+
+<h4>Factorial C program output:</h4>  
+
+![fact_op Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%202/fact_op.png)
+
+<h4>Factorial C program using RISC-V:</h4>
+
+![fact_riscv Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%202/fact_riscv.png)
+
+<h4>Factorial C program using RISC-V O1 optimization:</h4>
+
+![fact_riscv_mainaddO1 Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%202/fact_riscv_mainaddO1.png)
+
+<h4>Factorial C program using RISC-V Ofast optimization:</h4>
+
+![fact_riscv_mainaddOfast Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%202/fact_riscv_mainaddOfast.png)
+
+<h4>SPIKE simulation of factorial C program - O1 optimization:</h4>
+
+![fact_spike_O1 Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%202/fact_spike_O1.png)
+
+<h4>SPIKE simulation of factorial C program - Ofast optimization:</h4>
+
+![fact_spike_Ofast Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%202/fact_spike_Ofast.png)
+
 </details>
   
 <details>
@@ -266,24 +324,47 @@ Used for jump operations.
 <br>
 A simulation environment (iverilog, gtkwave) is set up and the functional simulation of the RISC-V core Verilog netlist and testbench is run and the functional correctness of the core is checked by observing the output waveform.  
 
+<h4>Verilog netlist code: </h4>  
+
+[Verilog netlist code](https://github.com/Tech-Hades/samsung-riscv/blob/main/Task%204/Verilog%20netlist%20code)
+
+<h4>Verilog testbench code: </h4>  
+
+  [Verilog testbench code](https://github.com/Tech-Hades/samsung-riscv/blob/main/Task%204/Verilog%20testbench%20code)
+
+<h4>GTKWave analyzer: </h4>  
+
+![Working Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%204/Working.png)
+
 ### Output Waveforms
 
 ### **1. Instruction: `ADD R6, R2, R1`**  
+![1_Add Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%204/1_Add.png)
 
 ### **2. Instruction: `SUB R7, R1, R2`**  
+![2_Sub Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%204/2_Sub.png)
 
 ### **3. Instruction: `AND R8, R1, R3`**  
+![3_And Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%204/3_And.png)
 
 ### **4. Instruction: `OR R9, R2, R5`**  
+![4_Or Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%204/4_Or.png)
 
 ### **5. Instruction: `XOR R10, R1, R4`**  
+![5_Xor Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%204/5_Xor.png)
 
 ### **6. Instruction: `SLT R1, R2, R4`**  
+![6_Slt Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%204/6_Slt.png)
 
 ### **7. Instruction: `ADDI R12, R4, 5`**  
+![7_Addi Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%204/7_Addi.png)
 
 ### **8. Instruction: `BEQ R0, R0, 15`**  
+![8_Beq Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%204/8_Beq.png)
 
 ### **9. Instruction: `BNE R0, R1, 20`**  
+![9_Bne Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%204/9_Bne.png)
 
 ### **10. Instruction: `SLL R15, R1, R2`**  
+![10_Sll Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%204/10_Sll.png)
+
