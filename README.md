@@ -5,13 +5,21 @@ This is a VSD-Samsung-RISCV-Program. The instructor for this internship is Kunal
 Name: Renuka. S. U.  
 College: RV Institute of Technology and Management  
 
-# Task 1
-Install all the essential tools required such as Ubuntu on VMBox. Perform a sum to n numbers C program and generate the RISC-V object dump along with -O1 and Ofast compiler optimization flags.  
+<details>
+<summary><h2>Task 1<h2></summary>
+<br>
+Install all the essential tools required such as Ubuntu on VMBox. Perform a sum to n numbers C program and generate the RISC-V object dump along with -O1 and Ofast compiler optimization flags. 
+</details>
 
-# Task 2
+<details>
+<summary><h2>Task 2<h2></summary>
+<br>
 Run SPIKE simulation. A factorial C program is compiled and the same steps is followed to run object dump for each optimization flags and SPIKE simulation. 
-
-# Task 3 
+</details>
+  
+<details>
+<summary><h2>Task 3<h2></summary>
+<br>
 Instruction types - RISC-V instructions are classified into different types based on their field structure. Each type consists of specific fields, such as opcode, funct3, funct7, immediate values, and register identifiers. 
 
 ### **R-type: Register type**
@@ -106,7 +114,10 @@ Used for jump operations.
 **Example**: `jal x1, offset`  
   - `opcode`: 1101111
 
-### Machine Code:
+<details>
+<summary><h3>Machine Code:<h3></summary>
+<br>
+  
 ![obj_dump_O1 Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%203/obj_dump_O1.png)
 
 ### **1. Instruction: `addi sp, sp, -32`**
@@ -247,3 +258,32 @@ Used for jump operations.
 - **funct3**: `000`  
 - **rd**: `00000`  
 - **rs1**: `00001` (ra = x1)
+</details>
+</details>  
+
+<details>
+<summary><h2>Task 4<h2></summary>
+<br>
+A simulation environment (iverilog, gtkwave) is set up and the functional simulation of the RISC-V core Verilog netlist and testbench is run and the functional correctness of the core is checked by observing the output waveform.  
+
+### Output Waveforms
+
+### **1. Instruction: `ADD R6, R2, R1`**  
+
+### **2. Instruction: `SUB R7, R1, R2`**  
+
+### **3. Instruction: `AND R8, R1, R3`**  
+
+### **4. Instruction: `OR R9, R2, R5`**  
+
+### **5. Instruction: `XOR R10, R1, R4`**  
+
+### **6. Instruction: `SLT R1, R2, R4`**  
+
+### **7. Instruction: `ADDI R12, R4, 5`**  
+
+### **8. Instruction: `BEQ R0, R0, 15`**  
+
+### **9. Instruction: `BNE R0, R1, 20`**  
+
+### **10. Instruction: `SLL R15, R1, R2`**  
