@@ -367,4 +367,72 @@ A simulation environment (iverilog, gtkwave) is set up and the functional simula
 
 ### **10. Instruction: `SLL R15, R1, R2`**  
 ![10_Sll Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%204/10_Sll.png)
+</details>  
 
+<details>
+<summary><h2>Task 5<h2></summary>
+<br>
+<h2>Object Detection System Using VSD Squadron Mini</h2>
+
+### Overview
+This project demonstrates the implementation of an **Object Detection System** using the **VSD Squadron Mini**, a RISC-V-based SoC development kit. The system identifies objects and measures their distance using an ultrasonic sonar sensor, with real-time visual output displayed on an OLED. This setup highlights the practical application of digital logic and RISC-V architecture in executing distance measurement and is programmed using **Processing** software.
+
+### Components Required
+- **VSD Squadron Mini Board (RISC-V-based)**  
+- **Ultrasonic Sonar Sensor (e.g., HC-SR04)**  
+- **Servo Motor**  
+- **Breadboard**  
+- **Jumper Wires**  
+- **Display Module (e.g., OLED or LCD)**  
+
+### Hardware Connections
+![Circuit Diagram](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%205/Circuit_diagram.png)
+
+#### **Inputs**
+1. **Ultrasonic Sensor (HC-SR04)**:  
+   - **Trigger Pin (PD4):** GPIO pin (output) to send ultrasonic pulses.  
+   - **Echo Pin (PD3):** GPIO pin (input) to receive reflected signals.  
+   - **VCC:** 3.3V power supply.  
+   - **GND:** Ground.  
+
+#### **Outputs**
+1. **Servo Motor**:  
+   - **Control Pin (PD2):** PWM-enabled GPIO pin for angle control.  
+   - **VCC:** 3.3V power supply.  
+   - **GND:** Ground.  
+
+2. **OLED Display**:  
+   - **SDA (PC1):** I2C data line.  
+   - **SCL (PC2):** I2C clock line.  
+   - **VCC:** 3.3V power supply.  
+   - **GND:** Ground.  
+
+### Truth Table for the Object Detection System
+
+| **Distance Measured (cm)** | **Servo Motor PWM Duty Cycle** | **OLED Display Output**      | **System Behavior**                          |
+|-----------------------------|--------------------------------|-------------------------------|---------------------------------------------|
+| `< 15 cm`                  | 95%                           | `"Distance: X.XX cm"`        | - Servo moves to indicate object presence.  |
+|                             |                                |                               | - OLED shows the distance.                  |
+|                             |                                |                               | - Alert: Object detected below threshold.   |
+| `>= 15 cm`                 | 10%                           | `"Distance: X.XX cm"`        | - Servo resets to default position.         |
+|                             |                                |                               | - OLED shows the distance.                  |
+
+### System Explanation
+
+#### 1. **Threshold (15 cm)**
+- **Distance < 15 cm**:
+  - Servo motor rotates to a specified position (95% duty cycle).
+  - OLED displays the distance with an alert for object detection.
+- **Distance >= 15 cm**:
+  - Servo motor resets to the default position (10% duty cycle).
+  - OLED displays the measured distance.
+
+#### 2. **OLED Display**
+- Shows real-time distance readings from the ultrasonic sensor.
+- Updates every second.
+
+#### 3. **PWM Duty Cycle**
+- Controls the angle of the servo motor based on the measured distance.
+
+### How to Program? 
+  [Object Detection Code](https://github.com/Tech-Hades/samsung-riscv/blob/main/Task%205/Object%20detection%20Code)
