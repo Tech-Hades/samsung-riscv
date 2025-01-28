@@ -12,27 +12,27 @@ Install all the essential tools required such as Ubuntu on VMBox. Perform a sum 
 
   <h4>Virtual Machine Working:</h4>
 
-![VMbox_work Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task1/VMbox_work.png)
+![VMbox_work Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%201/VMbox_work.png)
 
 <h4>Code for sum upto n numbers C program:</h4>
 
-![Sum_code Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task1/Sum_code.png)
+![Sum_code Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%201/Sum_code.png)
 
 <h4>Sum upto n numbers C program output:</h4>
 
-![sum_op Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task1/sum_op.png)
+![sum_op Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%201/sum_op.png)
 
 <h4>Sum upto n numbers C program using RISC-V:</h4>
 
-![sum_riscv Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task1/sum_riscv.png)
+![sum_riscv Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%201/sum_riscv.png)
 
 <h4>Sum upto n numbers C program using RISC-V O1 optimization:</h4>
 
-![sum_riscv_mainadd01 Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task1/sum_riscv_mainadd01.png)
+![sum_riscv_mainadd01 Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%201/sum_riscv_mainadd01.png)
 
 <h4>Sum upto n numbers C program using RISC-V Ofast optimization:</h4>
 
-![sum_riscv_mainaddfast Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task1/sum_riscv_mainaddfast.png)
+![sum_riscv_mainaddfast Image](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%201/sum_riscv_mainaddfast.png)
 
 </details>
 
