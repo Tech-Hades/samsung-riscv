@@ -433,6 +433,3 @@ This project demonstrates the implementation of an **Object Detection System** u
 
 #### 3. **PWM Duty Cycle**
 - Controls the angle of the servo motor based on the measured distance.
-
-### How to Program? 
-  [Object Detection Code](https://github.com/Tech-Hades/samsung-riscv/blob/main/Task%205/Object%20detection%20Code)
