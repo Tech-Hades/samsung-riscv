@@ -433,3 +433,30 @@ This project demonstrates the implementation of an **Object Detection System** u
 
 #### 3. **PWM Duty Cycle**
 - Controls the angle of the servo motor based on the measured distance.
+</details>
+
+<details>
+<summary><h2>Task 6<h2></summary>
+<br>
+The Code and Working of Object Detection System Using VSD Squadron Mini.  
+  
+<h4>Code: </h4>  
+
+[VSD RISC-V](https://github.com/Tech-Hades/samsung-riscv/blob/main/Task%206/vsd_ricsv)
+
+<h4>Output: </h4>  
+
+[Output](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%206/Output.png)
+
+<h4>Video: </h4>
+
+[VSD Object Detection Video](https://github.com/Tech-Hades/samsung-riscv/blob/main/Task%206/VSD_Obj_detection.mp4)
+
+### Applications
+
+• Robotics & Automation: Automatic robots for obstacle detection and collision-free operation.  
+• Smart Vehicles & Transportation: Blind spot detection, parking assistance, and collision avoidance.  
+• Security & Surveillance: Intrusion detection, smart door systems, and material handling.  
+• Industrial Applications: Material handling, liquid level monitoring, and healthcare devices.  
+• Healthcare & Assistive Devices: Walking aids, social distancing monitors, IoT & smart home applications, smart trash cans, automatic light control.  
+• Agriculture & Environmental Monitoring: Smart irrigation, animal detection in fields.  
