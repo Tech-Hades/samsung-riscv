@@ -444,10 +444,6 @@ The Code and Working of Object Detection System Using VSD Squadron Mini.
 
 [VSD RISC-V](https://github.com/Tech-Hades/samsung-riscv/blob/main/Task%206/vsd_ricsv)
 
-<h4>Output: </h4>  
-
-[Output](https://github.com/Tech-Hades/samsung-riscv/raw/main/Task%206/Output.png)
-
 <h4>Video: </h4>
 
 [VSD Object Detection Video](https://github.com/Tech-Hades/samsung-riscv/blob/main/Task%206/VSD_Obj_detection.mp4)
